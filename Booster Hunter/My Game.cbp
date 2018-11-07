@@ -44,10 +44,10 @@
 			<Add option="-Wall" />
 			<Add option="-std=c++14" />
 			<Add option="-fexceptions" />
-			<Add directory="D:/My Programms/In SFML/SFML-2.5.0/include" />
+			<Add directory="C:/SFML/include" />
 		</Compiler>
 		<Linker>
-			<Add directory="D:/My Programms/In SFML/SFML-2.5.0/lib" />
+			<Add directory="C:/SFML/lib" />
 		</Linker>
 		<Unit filename="main.cpp" />
 		<Unit filename="sfml-audio-2.dll" />
