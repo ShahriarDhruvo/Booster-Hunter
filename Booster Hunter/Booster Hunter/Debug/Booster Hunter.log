@@ -1,0 +1,26 @@
+﻿  Booster Hunter.cpp
+d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(29): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(57): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(78): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(147): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(207): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(207): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(209): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(212): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(212): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(214): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(217): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(217): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(219): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(222): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(222): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(224): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(227): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(227): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(229): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(260): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(260): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(267): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(273): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(13): warning C4101: 'jump': unreferenced local variable
+  Booster Hunter.vcxproj -> D:\My Programs\In SFML\In Visual Studio\Booster Hunter\Debug\Booster Hunter.exe
