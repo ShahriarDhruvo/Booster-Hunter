@@ -1,0 +1,5 @@
+Movements:
+  Move Left -> Arrow Left
+  Move Right -> Arrow Right
+  Jump -> Space
+  Shoot -> F

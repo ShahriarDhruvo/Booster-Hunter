@@ -1,26 +1,91 @@
-﻿  Booster Hunter.cpp
-d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(29): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(57): warning C4305: 'argument': truncation from 'double' to 'float'
-d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(78): warning C4305: 'argument': truncation from 'double' to 'float'
-d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(147): warning C4305: 'argument': truncation from 'double' to 'float'
-d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(207): warning C4305: 'argument': truncation from 'double' to 'float'
-d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(207): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(209): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(212): warning C4305: 'argument': truncation from 'double' to 'float'
-d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(212): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(214): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(217): warning C4305: 'argument': truncation from 'double' to 'float'
-d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(217): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(219): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(222): warning C4305: 'argument': truncation from 'double' to 'float'
-d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(222): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(224): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(227): warning C4305: 'argument': truncation from 'double' to 'float'
-d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(227): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(229): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(260): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(260): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
-d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(267): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(273): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-d:\my programs\in sfml\in visual studio\booster hunter\booster hunter\booster hunter.cpp(13): warning C4101: 'jump': unreferenced local variable
-  Booster Hunter.vcxproj -> D:\My Programs\In SFML\In Visual Studio\Booster Hunter\Debug\Booster Hunter.exe
+﻿  Game.cpp
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(28): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(68): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(75): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(90): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(185): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(185): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(187): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(190): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(190): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(192): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(195): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(195): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(197): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(200): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(200): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(202): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(205): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(205): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(207): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(237): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(237): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(244): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(250): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(173): warning C4390: ';': empty controlled statement found; is this the intent?
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(23): warning C4101: 'jump': unreferenced local variable
+  Booster Hunter.vcxproj -> D:\My Programs\In SFML\In Visual Studio\My Game\New idea\Booster Hunter\Debug\Booster Hunter.exe
