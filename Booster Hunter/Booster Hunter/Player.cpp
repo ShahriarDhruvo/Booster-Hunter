@@ -1,4 +1,5 @@
 #include "Player.h"
+#include <iostream>
 
 Player::Player(sf::Texture & texture, sf::Vector2u imageCount, float switchTime, float speed, float jumpHeight) :
 	animation(texture, imageCount, switchTime)
@@ -10,10 +11,9 @@ Player::Player(sf::Texture & texture, sf::Vector2u imageCount, float switchTime,
 
 	body.setSize(sf::Vector2f(70.0f, 70.0f));
 	body.setTexture(&texture);
-	body.setScale(1.3, 1.3);
+	body.setScale(1.3, 1.4);
 	texture.setSmooth(true);
 }
-
 
 Player::~Player()
 {
@@ -21,10 +21,12 @@ Player::~Player()
 
 void Player::OnCollision(sf::Vector2f direction)
 {
-	if (direction.x < 0.0f)
+	if (direction.x < 0.0f) {
 		velocity.x = 0.0f;
-	else if (direction.x > 0.0f)
+	}
+	else if (direction.x > 0.0f) {
 		velocity.x = 0.0f;
+	}
 	if (direction.y < 0.0f) {
 		velocity.y = 0.0f;
 		canJump = true;
@@ -39,9 +41,30 @@ void Player::position(sf::Vector2f position)
 	body.setPosition(position);
 }
 
-sf::Vector2f Player::gPosition()
+void Player::yPosition(float yPosition)
 {
-	return body.getPosition();
+	float x = body.getPosition().x;
+	body.setPosition(x, yPosition - 100);
+}
+
+void Player::Dead()
+{
+	sf::RenderWindow window(sf::VideoMode(1200, 800), "You are Dead !");
+	sf::Text dead;
+	sf::Font font;
+	dead.setFillColor(sf::Color::Red);
+	dead.setString("Dead");
+	while (window.isOpen()) {
+		window.clear();
+		window.draw(dead);
+		window.display();
+	}
+}
+
+bool Player::chkCollision(Bullet bullet)
+{
+	if (bullet.getRight() < body.getPosition().x && bullet.getTop() < body.getPosition().y + body.getSize().y && bullet.getBottom() > body.getPosition().y)
+		return true;
 }
 
 void Player::update(float deltaTime)
@@ -72,6 +95,13 @@ void Player::update(float deltaTime)
 	animation.update(row, deltaTime, faceRight);
 	body.setTextureRect(animation.uvRect);
 	body.move(velocity * deltaTime);
+}
+
+sf::Vector2f Player::getPosition()
+{
+	float x = body.getPosition().x + 100.0f;
+	float y = body.getPosition().y;
+	return sf::Vector2f(x, y);
 }
 
 void Player::Draw(sf::RenderWindow & window)

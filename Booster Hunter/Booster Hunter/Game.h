@@ -7,6 +7,7 @@ class Game
 public:
 	Game();
 	~Game();
-	void newGame();
+	int newGame();
+	sf::Vector2f coinRandom(int i);
 };
 

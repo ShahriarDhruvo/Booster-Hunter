@@ -1,7 +1,6 @@
 #include "Collider.h"
 
-
-Collider::Collider(sf::RectangleShape& body) : body(body)
+Collider::Collider(sf::RectangleShape & body) : body(body)
 {
 }
 
@@ -17,10 +16,10 @@ bool Collider::CheckCollision(Collider other, sf::Vector2f & direction)
 	sf::Vector2f thisPosition = GetPosition();
 	sf::Vector2f thisHalfsize = GetHalfSize();
 
-	float deltaX = otherPosition.x - thisPosition.x;
-	float deltaY = otherPosition.y - thisPosition.y;
-	float intersectX = abs(deltaX) - (otherHalfsize.x + thisHalfsize.x);
-	float intersectY = abs(deltaY) - (otherHalfsize.y + thisHalfsize.y);
+	float deltaX = otherPosition.x - thisPosition.x + 42.0f;
+	float deltaY = otherPosition.y - thisPosition.y + 42.0f;
+	float intersectX = (abs(deltaX) - (otherHalfsize.x + thisHalfsize.x));
+	float intersectY = (abs(deltaY) - (otherHalfsize.y + thisHalfsize.y));
 
 	if (intersectX < 0.0f && intersectY < 0.0f) {
 		if (intersectX > intersectY) {
@@ -43,7 +42,7 @@ bool Collider::CheckCollision(Collider other, sf::Vector2f & direction)
 				direction.y = -1.0f;
 			}
 		}
-		//Move(0.0f, 100.0f);
+		//Move(0.0f, moveY);
 
 		return true;
 	}

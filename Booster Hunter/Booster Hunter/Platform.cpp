@@ -1,10 +1,13 @@
 #include "Platform.h"
+#include <iostream>
 
-Platform::Platform(sf::Texture & texture, sf::Vector2f size)
+Platform::Platform(sf::Texture & texture)
 {
-	body.setSize(size);
-	body.setOrigin(size / 2.0f);
+	body.setSize(sf::Vector2f(120.0f, 55.0f));
+	body.setScale(sf::Vector2f(1.5, 0.6));
+	body.setOrigin((sf::Vector2f(120.0f, 55.0f)) / 2.0f);
 	body.setTexture(&texture);
+	texture.setSmooth(true);
 }
 
 Platform::~Platform()
@@ -21,7 +24,7 @@ void Platform::position(sf::Vector2f position)
 	body.setPosition(position);
 }
 
-void Platform::scale(sf::Vector2f scale)
+float Platform::getPosition()
 {
-	body.setScale(scale);
+	return body.getPosition().y;
 }

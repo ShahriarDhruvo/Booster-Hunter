@@ -1,7 +1,5 @@
 #include "Menu.h"
 
-
-
 Menu::Menu(int width, int height)
 {
 	font.loadFromFile("Font\\consolaz.ttf");

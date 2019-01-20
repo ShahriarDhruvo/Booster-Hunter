@@ -1,17 +1,23 @@
 #include "Collectibles.h"
 
-
-Collectibles::Collectibles(sf::Texture & texture)
+Collectibles::Collectibles(sf::Texture & texture, sf::Vector2f size, sf::Vector2f scale, sf::Vector2f position)
 {
-	body.setSize(sf::Vector2f(100.0f, 100.0f));
-	body.setOrigin(50.0f, 50.0f);
+	body.setSize(size);
+	body.setOrigin(size / 2.0f);
 	body.setTexture(&texture);
-	body.setScale(0.3, 0.3);
-	body.setPosition(500.0f, 240.0f);
+	body.setScale(scale);
+	body.setPosition(position);
 	texture.setSmooth(true);
-
 }
 
 Collectibles::~Collectibles()
 {
+}
+void Collectibles::position(sf::Vector2f(position))
+{
+	body.setPosition(position);
+}
+void Collectibles::Draw(sf::RenderWindow & window)
+{
+	window.draw(body);
 }

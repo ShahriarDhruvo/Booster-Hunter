@@ -1,5 +1,18 @@
 Movements:
+
+ Player 1:
   Move Left -> Arrow Left
   Move Right -> Arrow Right
   Jump -> Space
   Shoot -> F
+
+ Player 2:
+  Move Left -> A
+  Move Right -> D
+  Jump -> J
+  Shoot -> S
+
+**** Collect the coins and earn points
+     if you earn more points(in certain time)
+     before other player do
+     you will be the winner.****

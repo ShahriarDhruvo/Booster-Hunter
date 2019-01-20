@@ -4,7 +4,7 @@
 class Collider
 {
 public:
-	Collider(sf::RectangleShape& body);
+	Collider(sf::RectangleShape & body);
 	~Collider();
 
 	void Move(float dx, float dy) { body.move(dx, dy); }
@@ -13,6 +13,6 @@ public:
 	sf::Vector2f GetHalfSize() { return body.getSize() / 2.0f; }
 
 private:
-	sf::RectangleShape& body;
+	sf::RectangleShape & body;
 };
 
