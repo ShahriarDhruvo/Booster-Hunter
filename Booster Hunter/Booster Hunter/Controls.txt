@@ -13,6 +13,7 @@ Movements:
   Shoot -> S
 
 **** Collect the coins and earn points
-     if you earn more points(in certain time)
+     if you earn more points
      before other player do
-     you will be the winner.****
+     you will be the winner.
+     you got 30s to defeat your oponent :)****

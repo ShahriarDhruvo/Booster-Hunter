@@ -47,20 +47,6 @@ void Villain::yPosition(float yPosition)
 	body.setPosition(x, yPosition - 106);
 }
 
-void Villain::Dead()
-{
-	sf::RenderWindow window(sf::VideoMode(1200, 800), "You are Dead !");
-	sf::Text dead;
-	sf::Font font;
-	dead.setFillColor(sf::Color::Red);
-	dead.setString("Dead");
-	while (window.isOpen()) {
-		window.clear();
-		window.draw(dead);
-		window.display();
-	}
-}
-
 void Villain::update(float deltaTime)
 {
 	velocity.x = 0.0f;

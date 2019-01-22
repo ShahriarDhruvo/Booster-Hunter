@@ -1,2 +1,61 @@
-﻿  Score.cpp
+﻿  Game.cpp
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(45): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(46): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(60): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(110): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(111): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(117): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(132): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(150): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(224): warning C4018: '<': signed/unsigned mismatch
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(234): warning C4018: '<': signed/unsigned mismatch
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(282): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(286): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(290): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(294): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(298): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(319): warning C4305: 'argument': truncation from 'int' to 'float'
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(323): warning C4305: 'argument': truncation from 'int' to 'float'
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(359): warning C4244: 'initializing': conversion from 'sf::Int32' to 'float', possible loss of data
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(367): warning C4244: 'initializing': conversion from 'sf::Int32' to 'float', possible loss of data
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(389): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(415): warning C4018: '<': signed/unsigned mismatch
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(421): warning C4018: '<': signed/unsigned mismatch
+d:\my programs\in sfml\in visual studio\my game\new idea\booster hunter\booster hunter\game.cpp(446): warning C4715: 'Game::newGame': not all control paths return a value
   Booster Hunter.vcxproj -> D:\My Programs\In SFML\In Visual Studio\My Game\New idea\Booster Hunter\Debug\Booster Hunter.exe

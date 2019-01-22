@@ -9,7 +9,7 @@ public:
 	void addh(int myInt);
 	void addv(int myInt);
 	void Draw(sf::RenderWindow & window);
-	bool chkGameOver();
+	bool gameOver(int x);
 private:
 	sf::Font font;
 	sf::Text score;

@@ -1,6 +1,9 @@
 #include "Score.h"
 #include <sstream>
-#include <iostream>
+#include <SFML\Audio.hpp>
+
+#define SC_WIDTH 1200
+#define SC_HEIGHT 800
 
 template <typename T>
 std::string CtoString(T arg)
@@ -12,6 +15,7 @@ std::string CtoString(T arg)
 
 int h1 = 0;
 int h2 = 0;
+
 
 Score::Score(sf::Vector2f position, sf::Vector2f posText)
 {
@@ -26,7 +30,8 @@ Score::Score(sf::Vector2f position, sf::Vector2f posText)
 	number.setPosition(position);
 	winner.setFont(font);
 	winner.setFillColor(sf::Color::Green);
-	winner.setPosition(600, 400);
+	winner.setCharacterSize(44);
+	winner.setPosition(355, 370);
 }
 
 Score::~Score()
@@ -51,10 +56,18 @@ void Score::Draw(sf::RenderWindow & window)
 	window.draw(number);
 }
 
-bool Score::chkGameOver()
+bool Score::gameOver(int x)
 {
-	if ((h1 + h2) == 250) {
-		sf::RenderWindow window(sf::VideoMode(1200, 800), "Winner");
+	if ((h1 + h2) == 250 || x != 0) {
+		sf::RenderWindow window(sf::VideoMode(SC_WIDTH, SC_HEIGHT), "Winner");
+
+		// Winner Background:
+		sf::RectangleShape background(sf::Vector2f(SC_WIDTH, SC_HEIGHT));
+		sf::Texture backgroundTexture;
+		if (!backgroundTexture.loadFromFile("Textures\\Winner\\Winner.png")) return EXIT_FAILURE;
+		backgroundTexture.setSmooth(true);
+		background.setTexture(&backgroundTexture);
+
 		sf::Event event;
 		while (window.isOpen()) {
 			while (window.pollEvent(event))
@@ -65,7 +78,28 @@ bool Score::chkGameOver()
 					window.close();
 			}
 			window.clear();
-			if (h1 > h2) {
+			window.draw(background);
+			if (x == 1) {
+				winner.setString("   Player 2 is DEAD !!\nThe Winner is Player 1");
+				window.draw(winner);
+			}
+			else if (x == 2) {
+				winner.setString("   Player 1 is DEAD !!\nThe Winner is Player 2");
+				window.draw(winner);
+			}
+			else if (x == 3 && h1 > h2) {
+				winner.setString("   Time Up :)\nThe Winner is Player 1");
+				window.draw(winner);
+			}
+			else if (x == 3 && h2 > h1) {
+				winner.setString("   Time Up :)\nThe Winner is Player 2");
+				window.draw(winner);
+			}
+			else if (x == 3 && h1 == h2) {
+				winner.setString("      DRAW 0_o");
+				window.draw(winner);
+			}
+			else if (h1 > h2) {
 				winner.setString("The Winner is Player 1");
 				window.draw(winner);
 			}

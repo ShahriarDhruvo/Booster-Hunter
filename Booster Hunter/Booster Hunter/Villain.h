@@ -16,7 +16,6 @@ public:
 	void position(sf::Vector2f position);
 	void yPosition(float yPosition);
 	sf::Vector2f getPosition();
-	void Dead();
 	bool direction() { return faceRight; };
 private:
 	sf::RectangleShape body;

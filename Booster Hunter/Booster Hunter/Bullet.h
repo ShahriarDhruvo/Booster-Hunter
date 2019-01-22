@@ -9,13 +9,10 @@ public:
 	~Bullet();
 	void Draw(sf::RenderWindow & window);
 	void position(sf::Vector2f(position));
-	void fire(float speed, bool dir);
+	void fire(float speed);
 	Collider GetCollider() { return Collider(body); }
-	//sf::Vector2f getPosition();
-	int getRight() { return body.getPosition().x + body.getSize().x; }
-	int getLeft() {	return body.getPosition().x; }
-	int getTop() { return body.getPosition().y; }
-	int getBottom() { return body.getPosition().y + body.getSize().y;	}
+	void direction(bool dir);
 private:
 	sf::RectangleShape body;
+	int trigger;
 };

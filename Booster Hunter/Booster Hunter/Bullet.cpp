@@ -14,16 +14,22 @@ Bullet::~Bullet()
 {
 }
 
-void Bullet::fire(float speed, bool dir)
+void Bullet::direction(bool dir)
 {
 	if (dir == 1) {
 		body.setRotation(180);
-		body.move(speed, 0.0f);
+		trigger = 1;
 	}
 	else {
 		body.setRotation(0);
-		body.move(-speed, 0.0f);
+		trigger = 0;
 	}
+}
+
+void Bullet::fire(float speed)
+{
+	if (trigger == 1) body.move(speed, 0.0f);
+	else if (trigger == 0) body.move(-speed, 0.0f);
 }
 
 void Bullet::Draw(sf::RenderWindow & window)

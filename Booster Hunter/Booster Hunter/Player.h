@@ -2,7 +2,6 @@
 #include <SFML/Graphics.hpp>
 #include "Animation.h"
 #include "Collider.h"
-#include "Bullet.h"
 
 class Player
 {
@@ -16,9 +15,7 @@ public:
 	void position(sf::Vector2f position);
 	void yPosition(float yPosition);
 	sf::Vector2f getPosition();
-	void Dead();
 	bool direction() { return faceRight; };
-	bool chkCollision(Bullet bullet);
 private:
 	sf::RectangleShape body;
 	sf::Vector2f velocity;

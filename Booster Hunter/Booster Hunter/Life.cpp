@@ -1,11 +1,10 @@
 #include "Life.h"
-#include <iostream>
+#include "Score.h"
 
-int x1 = 10;
-int x2 = 10;
 
-Life::Life(sf::Texture & texture)
+Life::Life(sf::Texture & texture, int life)
 {
+	this->life = life;
 	body.setSize(sf::Vector2f(28.0f, 28.0f));
 	body.setTexture(&texture);
 	texture.setSmooth(true);
@@ -15,28 +14,26 @@ Life::~Life()
 {
 }
 
-void Life::smash1()
+void Life::smash()
 {
-	x1--;
+	life--;
 }
 
-void Life::smash2()
+bool Life::chkDeath()
 {
-	x2--;
+	if (life <= 0) return true;
+	return false;
 }
 
-void Life::Draw1(sf::RenderWindow & window)
+void Life::bonusLife()
 {
-	for (int i = 0; i < x1; i++) {
-		body.setPosition(60 + ((signed)i * 30), 5);
-		window.draw(body);
-	}
+	life = life + 3;
 }
 
-void Life::Draw2(sf::RenderWindow & window)
+void Life::Draw(sf::RenderWindow & window, int positionX)
 {
-	for (int i = 0; i < x2; i++) {
-		body.setPosition(842 + ((signed)i * 30), 5);
+	for (int i = 0; i < life; i++) {
+		body.setPosition(positionX + (i * 30), 5);
 		window.draw(body);
 	}
 }

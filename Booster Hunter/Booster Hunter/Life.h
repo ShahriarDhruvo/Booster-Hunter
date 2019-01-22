@@ -4,13 +4,14 @@
 class Life
 {
 public:
-	Life(sf::Texture & texture);
+	Life(sf::Texture & texture, int life);
 	~Life();
-	void Draw1(sf::RenderWindow & window);
-	void Draw2(sf::RenderWindow & window);
-	void smash1();
-	void smash2();
+	void Draw(sf::RenderWindow & window, int positionX);
+	void smash();
+	bool chkDeath();
+	void bonusLife();
 private:
 	sf::RectangleShape body;
+	int life;
 };
 
