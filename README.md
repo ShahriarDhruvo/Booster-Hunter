@@ -1,3 +1,11 @@
-# Game-Projects
-Games Made By My Team
-Here I'll post all the games that I will make.
+# Booster Hunter
+This is a simple 2D multiplayer shooting game
+
+# How to use it
+Go to the release section and download the latest realease and play it
+
+# Frameworks and Libraries
+SFML
+
+# Language
+C++
