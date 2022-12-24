@@ -9,3 +9,6 @@ SFML
 
 # Language
 C++
+
+# Features
+2-D multiplayer PC game
